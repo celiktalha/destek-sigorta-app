@@ -1,0 +1,166 @@
+.kampanya-banner {
+    background: #f5821f;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.kampanya-alt {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.adim-gostergesi {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    font-size: 13px;
+    color: #999;
+}
+
+.adim.aktif {
+    color: #0066b3;
+    font-weight: bold;
+}
+
+.adim.tamam {
+    color: #0066b3;
+}
+
+.ozet-icerik {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 20px 20px 60px;
+    font-family: Arial, sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.ozet-aciklama {
+    color: #444;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.teklif-baslik {
+    color: #0066b3;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.fiyat-blok {
+    margin-bottom: 28px;
+}
+
+.eski-fiyat {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 16px;
+}
+
+.guncel-fiyat {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0066b3;
+}
+
+.ozet-kart {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.kart-baslik {
+    color: #0066b3;
+    font-size: 14px;
+    margin: 0 0 12px;
+}
+
+.kart-baslik-ikinci {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #eee;
+}
+
+.ozet-satir {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 13px;
+}
+
+.ozet-label {
+    color: #444;
+    font-weight: bold;
+}
+
+.ozet-deger {
+    color: #333;
+}
+
+.geri-link {
+    background: none;
+    border: none;
+    color: #0066b3;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+
+.onaylar-blok {
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.onay-satiri {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.onay-satiri input {
+    margin-top: 3px;
+    accent-color: #0066b3;
+}
+
+.onay-satiri a {
+    color: #0066b3;
+}
+
+.buton-grubu {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.ara-buton {
+    background: white;
+    color: #0066b3;
+    border: 1px solid #0066b3;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.satin-al-buton {
+    background: #0066b3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.satin-al-buton:disabled {
+    background: #99b8d6;
+    cursor: not-allowed;
+}

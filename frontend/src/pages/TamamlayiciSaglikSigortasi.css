@@ -1,0 +1,142 @@
+.tss-hero {
+    position: relative;
+}
+
+.tss-hero-gorsel {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+}
+
+.tss-hero-band {
+    height: 120px;
+    background: #eaf2fb;
+}
+
+.tss-hero-kutu {
+    position: absolute;
+    left: 60px;
+    top: 400px;
+    transform: translateY(-50%);
+    background: white;
+    padding: 32px;
+    max-width: 520px;
+    border-radius: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.tss-etiket {
+    color: #0066b3;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.tss-hero-kutu h1 {
+    color: #0033a0;
+    font-size: 28px;
+    margin: 0 0 14px;
+}
+
+.tss-hero-kutu p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.hemen-teklif-buton {
+    background: #1e9e8c;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tss-icerik {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.tss-bolum-baslik {
+    color: #0033a0;
+    font-size: 24px;
+    margin: 0 0 24px;
+}
+
+.ozellik-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+.ozellik-kart {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 22px;
+}
+
+.ozellik-ikon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ozellik-kart h3 {
+    color: #222;
+    font-size: 15px;
+    margin: 0 0 8px;
+}
+
+.ozellik-kart p {
+    color: #555;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.network-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+.network-kart {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 22px;
+    text-align: center;
+}
+
+.network-kart h3 {
+    color: #0066b3;
+    margin: 0 0 10px;
+}
+
+.network-kart p {
+    color: #555;
+    font-size: 13px;
+}
+
+.alt-cta {
+    background: #eaf2fb;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.alt-cta h2 {
+    color: #0033a0;
+    margin: 0 0 10px;
+}
+
+.alt-cta p {
+    color: #555;
+    margin-bottom: 20px;
+}

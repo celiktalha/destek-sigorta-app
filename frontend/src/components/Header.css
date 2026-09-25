@@ -1,0 +1,29 @@
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #0066b3;
+}
+
+.header {
+    border-bottom: 1px solid #ddd;
+    padding: 16px 32px;
+    background: white;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.logo-gorsel {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}
+
+.logo-yazi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0033a0;
+}

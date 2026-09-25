@@ -1,0 +1,185 @@
+.site-header {
+    font-family: Arial, sans-serif;
+    background: white;
+    position: relative;
+    z-index: 100;
+}
+
+.ust-serit {
+    border-bottom: 1px solid #eee;
+}
+
+.ust-serit-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-blok {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.logo-gorsel {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.logo-yazi {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0033a0;
+}
+
+.ayrac {
+    color: #ccc;
+    margin: 0 4px;
+}
+
+.finansal-danismanlik {
+    font-size: 13px;
+    color: #555;
+}
+
+.ust-sag {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 13px;
+    color: #0066b3;
+}
+
+.ust-link {
+    cursor: default;
+}
+
+.online-islemler-buton {
+    border: 1px solid #0066b3;
+    background: white;
+    color: #0066b3;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.ana-nav {
+    border-bottom: 1px solid #eee;
+}
+
+.ana-nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 14px;
+}
+
+.nav-link {
+    color: #0066b3;
+    cursor: default;
+}
+
+.urunler-link {
+    color: #0066b3;
+    cursor: pointer;
+}
+
+.urunler-link.aktif {
+    color: #0066b3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.urunler-link:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ara-link {
+    margin-left: auto;
+    color: #0066b3;
+    cursor: default;
+}
+
+.urunler-panel {
+    background: #eaf2fb;
+    border-bottom: 1px solid #d5e6f5;
+}
+
+.urunler-panel-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kategori-satiri {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.kategori {
+    font-size: 14px;
+    color: #0066b3;
+    cursor: default;
+}
+
+.aktif-kategori {
+    color: #0066b3;
+    cursor: pointer;
+}
+
+.aktif-kategori.secili {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.aktif-kategori:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.saglik-alt-panel {
+    border-top: 1px solid #d5e6f5;
+    padding-top: 16px;
+    margin-top: 8px;
+}
+
+.genel-bakis-link {
+    color: #0066b3;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.alt-urun-satiri {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #0066b3;
+}
+
+.alt-urun {
+    color: #0066b3;
+    cursor: default;
+}
+
+.aktif-alt-urun {
+    cursor: pointer;
+}
+
+.aktif-alt-urun:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

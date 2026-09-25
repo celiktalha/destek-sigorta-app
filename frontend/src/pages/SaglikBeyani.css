@@ -1,0 +1,112 @@
+.adim-gostergesi {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    font-size: 13px;
+    color: #999;
+}
+
+.adim.aktif {
+    color: #0066b3;
+    font-weight: bold;
+}
+
+.adim.tamam {
+    color: #0066b3;
+}
+
+.beyan-icerik {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+.beyan-baslik-blok {
+    background: #e6f2fb;
+    padding: 24px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 24px;
+}
+
+.beyan-baslik-blok h3 {
+    color: #0066b3;
+    margin: 0;
+    font-size: 20px;
+}
+
+.beyan-kart {
+    background: #fdf8ef;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.beyan-kart h4 {
+    margin: 0 0 16px;
+    font-size: 15px;
+    color: #333;
+}
+
+.beyan-secenek {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+    color: #444;
+    cursor: pointer;
+}
+
+.beyan-secenek:last-of-type {
+    border-bottom: none;
+}
+
+.beyan-secenek input {
+    margin-top: 3px;
+    accent-color: #0066b3;
+}
+
+.beyan-buton-grubu {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.onaylamiyorum-buton {
+    background: white;
+    color: #0066b3;
+    border: 1px solid #0066b3;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.onayliyorum-buton {
+    background: #0066b3;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.onayliyorum-buton:disabled,
+.onaylamiyorum-buton:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.hata-mesaji {
+    color: #c0392b;
+    font-size: 13px;
+    margin-top: 12px;
+    text-align: center;
+}
