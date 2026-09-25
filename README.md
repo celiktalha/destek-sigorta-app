@@ -10,7 +10,7 @@ This project was built to explore how the digital sales flow of an insurance pro
 The project consists of two main folders:
 
 - **`frontend/`** — the user interface, built with React. See [frontend/README.md](./frontend/README.md) for details.
-- **`backend/`** — the API and database layer, built with C# / ASP.NET Core. See [backend/SigortaAPI/README.md](./backend/README.md) for details.
+- **`backend/`** — the API and database layer, built with C# / ASP.NET Core. See [backend/SigortaAPI/README.md](./backend/SigortaAPI/README.md) for details.
 
 Each folder's README covers the technical details specific to that layer (architecture, endpoints, database schema, setup steps).
 
